@@ -1,0 +1,106 @@
+laazabi@laazabi-Aspire-A515-52:/$ ls
+bibelots  cdrom  home            lib         media  proc  sbin  swapfile  usr
+bin       dev    initrd.img      lib64       mnt    root  snap  sys       var
+boot      etc    initrd.img.old  lost+found  opt    run   srv   tmp       vmlinuz
+laazabi@laazabi-Aspire-A515-52:/$ ls .
+bibelots  cdrom  home            lib         media  proc  sbin  swapfile  usr
+bin       dev    initrd.img      lib64       mnt    root  snap  sys       var
+boot      etc    initrd.img.old  lost+found  opt    run   srv   tmp       vmlinuz
+laazabi@laazabi-Aspire-A515-52:/$ ls -a
+.         bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+..        boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+bibelots  cdrom  home  lib             media       proc  sbin  swapfile  usr
+laazabi@laazabi-Aspire-A515-52:/$ ls Images
+ls: impossible d'accéder à 'Images': Aucun fichier ou dossier de ce type
+laazabi@laazabi-Aspire-A515-52:/$ ls /home/laazabi
+Bureau     examples.desktop  Modèles  Public           Vidéos
+Documents  Images            Musique  Téléchargements
+laazabi@laazabi-Aspire-A515-52:/$ ls /home
+laazabi
+laazabi@laazabi-Aspire-A515-52:/$ ls ..
+bibelots  cdrom  home            lib         media  proc  sbin  swapfile  usr
+bin       dev    initrd.img      lib64       mnt    root  snap  sys       var
+boot      etc    initrd.img.old  lost+found  opt    run   srv   tmp       vmlinuz
+laazabi@laazabi-Aspire-A515-52:/$ ls /bin
+bash           fuser       nisdomainname  stty
+brltty         fusermount  ntfs-3g        su
+bunzip2        getfacl     ntfs-3g.probe  sync
+busybox        grep        ntfscat        systemctl
+bzcat          gunzip      ntfscluster    systemd
+bzcmp          gzexe       ntfscmp        systemd-ask-password
+bzdiff         gzip        ntfsfallocate  systemd-escape
+bzegrep        hciconfig   ntfsfix        systemd-hwdb
+bzexe          hostname    ntfsinfo       systemd-inhibit
+bzfgrep        ip          ntfsls         systemd-machine-id-setup
+bzgrep         journalctl  ntfsmove       systemd-notify
+bzip2          kbd_mode    ntfsrecover    systemd-sysusers
+bzip2recover   kill        ntfssecaudit   systemd-tmpfiles
+bzless         kmod        ntfstruncate   systemd-tty-ask-password-agent
+bzmore         less        ntfsusermap    tar
+cat            lessecho    ntfswipe       tempfile
+chacl          lessfile    open           touch
+chgrp          lesskey     openvt         true
+chmod          lesspipe    pidof          udevadm
+chown          ln          ping           ulockmgr_server
+chvt           loadkeys    ping4          umount
+cp             login       ping6          uname
+cpio           loginctl    plymouth       uncompress
+dash           lowntfs-3g  ps             unicode_start
+date           ls          pwd            vdir
+dd             lsblk       rbash          wdctl
+df             lsmod       readlink       which
+dir            mkdir       red            whiptail
+dmesg          mknod       rm             ypdomainname
+dnsdomainname  mktemp      rmdir          zcat
+domainname     more        rnano          zcmp
+dumpkeys       mount       run-parts      zdiff
+echo           mountpoint  sed            zegrep
+ed             mt          setfacl        zfgrep
+efibootdump    mt-gnu      setfont        zforce
+efibootmgr     mv          setupcon       zgrep
+egrep          nano        sh             zless
+false          nc          sh.distrib     zmore
+fgconsole      nc.openbsd  sleep          znew
+fgrep          netcat      ss
+findmnt        networkctl  static-sh
+laazabi@laazabi-Aspire-A515-52:/$ ls -l
+total 2097260
+drwxr-xr-x   2 root root       4096 sept. 10 17:22 bibelots
+drwxr-xr-x   2 root root       4096 sept. 10 11:45 bin
+drwxr-xr-x   4 root root       4096 sept. 10 11:45 boot
+drwxrwxr-x   2 root root       4096 sept. 10 11:42 cdrom
+drwxr-xr-x  20 root root       4320 sept. 10 11:57 dev
+drwxr-xr-x 123 root root      12288 sept. 10 11:49 etc
+drwxr-xr-x   3 root root       4096 sept. 10 11:43 home
+lrwxrwxrwx   1 root root         32 sept. 10 11:44 initrd.img -> boot/initrd.img-5.0.0-23-generic
+lrwxrwxrwx   1 root root         32 sept. 10 11:44 initrd.img.old -> boot/initrd.img-5.0.0-23-generic
+drwxr-xr-x  21 root root       4096 sept. 10 11:45 lib
+drwxr-xr-x   2 root root       4096 août   5 20:58 lib64
+drwx------   2 root root      16384 sept. 10 11:41 lost+found
+drwxr-xr-x   3 root root       4096 sept. 10 11:46 media
+drwxr-xr-x   2 root root       4096 août   5 20:58 mnt
+drwxr-xr-x   3 root root       4096 sept. 10 16:21 opt
+dr-xr-xr-x 280 root root          0 sept. 10 13:46 proc
+drwx------   3 root root       4096 août   5 21:09 root
+drwxr-xr-x  28 root root        840 sept. 10 16:09 run
+drwxr-xr-x   2 root root      12288 sept. 10 11:45 sbin
+drwxr-xr-x  11 root root       4096 sept. 10 11:47 snap
+drwxr-xr-x   2 root root       4096 août   5 20:58 srv
+-rw-------   1 root root 2147483648 sept. 10 11:41 swapfile
+dr-xr-xr-x  13 root root          0 sept. 10 15:27 sys
+drwxrwxrwt  19 root root       4096 sept. 10 17:33 tmp
+drwxr-xr-x  11 root root       4096 août   5 21:03 usr
+drwxr-xr-x  14 root root       4096 août   5 21:11 var
+lrwxrwxrwx   1 root root         29 sept. 10 11:44 vmlinuz -> boot/vmlinuz-5.0.0-23-generic
+laazabi@laazabi-Aspire-A515-52:/$ pwd
+/
+laazabi@laazabi-Aspire-A515-52:/$ cd
+laazabi@laazabi-Aspire-A515-52:~$ cd Images
+laazabi@laazabi-Aspire-A515-52:~/Images$ cd ..
+laazabi@laazabi-Aspire-A515-52:~$ cd /opt
+laazabi@laazabi-Aspire-A515-52:/opt$ cd ../home/laazabi
+laazabi@laazabi-Aspire-A515-52:~$ cd /usr/bin
+laazabi@laazabi-Aspire-A515-52:/usr/bin$ cd
+laazabi@laazabi-Aspire-A515-52:~$ cd ~
+laazabi@laazabi-Aspire-A515-52:~$ cd ~/Musique
+laazabi@laazabi-Aspire-A515-52:~/Musique$ 
